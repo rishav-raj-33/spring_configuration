@@ -1,8 +1,14 @@
-spring:
-  redis:
-    host: localhost
-    port: 6379
+# spring:
+#   redis:
+#     host: localhost
+#     port: 6379
 
-kafka:
-   topic: s_channel    
+
+spring:
+   data:
+     mongodb:
+        uri: mongodb://localhost:27017/students
+        auto-index-creation: true
+
+
    
